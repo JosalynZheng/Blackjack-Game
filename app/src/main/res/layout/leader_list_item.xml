@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="24dp">
+
+    <TextView
+            android:id="@+id/first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center" />
+
+    <TextView
+            android:id="@+id/last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first_name"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center" />
+
+    <TextView
+            android:id="@+id/win_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/last_name"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center" />
+
+    <TextView
+            android:id="@+id/lose_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/win_times"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center" />
+
+    <TextView
+            android:id="@+id/ratio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lose_times"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center" />
+
+</RelativeLayout>

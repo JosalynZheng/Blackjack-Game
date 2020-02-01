@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Blackjack</string>
+
+
+    <string name="no_connection">NO INTERNET CONNECTION!</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account_picture">Account Picture</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="logout">Log Out</string>
+    <string name="play_rules">If the player swipes to the
+        right that should indicate they want to hit. If they double tap the screen, that should indicate they want
+        to stand.
+    </string>
+    <string name="win">Win Time:</string>
+    <string name="lose">Lose Time:</string>
+    <string name="dealer">Dealer</string>
+    <string name="player">You</string>
+    <string name="score">Score:</string>
+    <string name="leaderboard_button">LeaderBoard</string>
+    <string name="newgame_button">New Game</string>
+    <string name="leader_board">LeaderBoard</string>
+    <string name="back">Back</string>
+</resources>
